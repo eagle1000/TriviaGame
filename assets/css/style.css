@@ -1,0 +1,116 @@
+body{
+	background: #0000CD;
+}
+
+#start_container{
+	text-align: center;
+	margin-top: 5%;
+
+}
+
+h1{
+	font-family: 'Oswald', sans-serif;
+	font-size: 80px;
+	font-weight: bold;
+	color: white;
+	text-align: center;
+}
+
+.imgLogos{
+	margin:2% 2%;
+	position:relative;
+	right:2%;
+}
+
+#imglogo1, #imglogo2, #imglogo3{
+	margin:2%;
+	height:180px;
+}
+
+#start_button{
+	color:white;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+#done_button{
+	color:white;
+	padding-left: 5%;
+	padding-right: 5%;
+	position:relative;
+	left:40%;
+	margin-bottom: 5%;
+}
+
+#mid_game_container{
+	margin-top: 5%;
+}
+
+#timer_line{
+	font-family: 'Oswald', sans-serif;
+	font-weight: bold;
+	font-size: 32px;
+	text-align: left;
+}
+
+.card{
+	margin:3%;
+}
+
+
+.questions{
+	font-family: 'Oswald', sans-serif;
+	font-weight: bold;
+	font-size: 24px;
+	text-align: left;
+	margin-left: 5%
+}
+
+.answers{
+	font-family: 'Oswald', sans-serif;
+	font-size: 20px;
+	margin-top: 3%;
+	margin-left: 5%;
+	margin-right: 2%;
+}
+
+.panelImg{
+	height:10%;
+	width: 10%;
+	float: right;
+	margin-right: 5%;
+
+}
+
+#champions{
+	height:180px;
+	width:732px;
+	position:relative;
+	top: 20%;
+	left:19%;
+}
+#imageCol{
+	height:70%;
+	margin-top: 5%
+}
+
+.results{
+	font-family: 'Oswald', sans-serif;
+	font-size: 32px;
+	/*font-weight: bold;*/
+	color: white;
+	text-align: center;
+	position:relative;
+	bottom: 10%;
+}
+
+h2{
+	font-size: 40px;
+	font-family: 'Oswald', sans-serif;
+	font-weight: bold;
+	color: white;
+	text-align: center;
+	position:relative;
+	margin-top: 5%;
+	
+}

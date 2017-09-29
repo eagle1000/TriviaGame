@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<title>Cubs Trivia</title>
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+	<!--Stylsheet.CSS Link-->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+	<!-- Google Fonts Link -->
+	<link href="https://fonts.googleapis.com/css?family=Gochi+Hand" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+
+	<!-- JQuery Script -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<!-- Javascript Link -->
+	<script type="text/javascript" src="assets/javascript/app.js"></script>
+</head>
+<body>
+
+	<!-- Start of the game -->
+	<div class="container" id="start_container">
+		<div class="row">
+			<h1 class ="col-12 logo">Chicago Cubs Trivia</h1>
+		</div>
+		<div class="row">
+			<div class="col-12 imgLogos">
+				<img  id="imglogo1" src="assets/images/cubLogo.png">
+				<img  id="imglogo2" src="assets/images/worldSeries.png">
+				<img  id="imglogo3" src="assets/images/cubLogo2.png">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-12">
+				<button type="button" class="btn btn btn-primary btn-lg" id ="start_button">Start</button>
+			</div>
+		</div>
+	</div>
+
+
+	<!--Gameplay Container -->
+	<div class="container" id="mid_game_container">
+		<audio id="ballgame" src="assets/images/Ballgame.mp3"></audio>
+		<div class="row">
+			<div class="col-12">
+				<h1 class ="logo">Chicago Cubs Trivia</h1>
+			</div>
+		</div>
+		<!-- Game Timer -->
+		<div class="row">
+			<div class="col-12">
+				<p id ="timer_line">Time Remaining: <span id ="timer_number">60 Seconds</span></p>
+			</div>
+		</div>
+		<!-- Game Questions -->
+		<div class="row card">
+			<div class="col-12 card-body">
+				<p class="questions"> What player scored the winning run in game 7 of the 2016 World Series?</p>
+				<input class="answers" type="radio" name="q1" value="Albert Almora">Albert Almora 
+				<input class="answers" type="radio" name="q1" value="Ben Zobrist">Ben Zobrist
+				<input class="answers" type="radio" name="q1" value="Kyle Schwarber">Kyle Schwarber 
+				<input class="answers" type="radio" name="q1" value="Kris Bryant">Kris Bryant 
+				<img src="assets/images/cubLogo.png" class="panelImg">
+			</div>
+		</div>
+		<div class="row card">
+			<div class="col-12 card-body">
+				<p class="questions">What team did the Cubs play in the 1945 World Series?</p>
+				<input class="answers" type="radio" name="q2" value="Yankees">Yankees
+				<input class="answers" type="radio" name="q2" value="Royals">Royals 
+				<input class="answers" type="radio" name="q2" value="Tigers">Tigers
+				<input class="answers" type="radio" name="q2" value="White Sox">White Sox
+				<img src="assets/images/worldSeries.png" class="panelImg">
+			</div>
+		</div>
+		<div class="row card">
+			<div class="col-12 card-body">
+				<p class="questions">How many players are enshrined in the Baseball Hall of Fame with a Chicago Cubs hat on their plaque?</p>
+				<input class="answers" type="radio" name="q3" value="five">5
+				<input class="answers" type="radio" name="q3" value="ten">10 
+				<input class="answers" type="radio" name="q3" value="twelve">12 
+				<input class="answers" type="radio" name="q3" value="seven">7 
+				<img src="assets/images/cubLogo2.png" class="panelImg">
+			</div>
+		</div>
+		<div class="row card">
+			<div class="col-12 card-body">
+				<p class="questions">What Chicago Cub had led the majors with the most hits the 1990's?</p>
+				<input class="answers" type="radio" name="q4" value="Ryne Sandberg">Ryne Sandberg
+				<input class="answers" type="radio" name="q4" value="Andre Dawson">Andre Dawson
+				<input class="answers" type="radio" name="q4" value="Mark Grace">Mark Grace
+				<input class="answers" type="radio" name="q4" value="Sammy Sosa">Sammy Sosa		
+				<img src="assets/images/cubLogo.png" class="panelImg">	
+			</div>
+		</div>
+		<div class="row card">
+			<div class="col-12 card-body">
+				<p class="questions">Who is the all time leader in wins for the Cubs?</p>
+				<input class="answers" type="radio" name="q5" value="Fergie Jenkins">Ferige Jenkins	
+				<input class="answers" type="radio" name="q5" value="Mordecai Brown">Mordecai Brown
+				<input class="answers" type="radio" name="q5" value="Greg Maddux">Greg Maddux 
+				<input class="answers" type="radio" name="q5" value="Charlie Root">Charlie Root
+				<img src="assets/images/worldSeries.png" class="panelImg">
+			</div>
+		</div>
+		<div class="row card">
+			<div class="col-12 card-body">
+				<p class="questions">Who is the all time leader in hits for the Cubs?</p>
+				<input class="answers" type="radio" name="q6" value="Cap Anson">Cap Anson
+				<input class="answers" type="radio" name="q6" value="Ernie Banks">Ernie Banks 
+				<input class="answers" type="radio" name="q6" value="Billy Williams">Billy Williams
+				<input class="answers" type="radio" name="q6" value="Ryne Sandberg">Ryne Sandburg 
+				<img src="assets/images/cubLogo2.png" class="panelImg">
+			</div>
+		</div>
+		<div class="row card">
+			<div class="col-12 card-body">
+				<p class="questions">What Cubs pitcher once struck out 20 batters in a game?</p>		
+				<input class="answers" type="radio" name="q7" value="Carlos Zambrano">Carlos Zambrano
+				<input class="answers" type="radio" name="q7" value="Fergie Jenkins">Fergie Jenkins 
+				<input class="answers" type="radio" name="q7" value="Kerry Wood">Kerry Wood 
+				<input class="answers" type="radio" name="q7" value="Jake Arrieta">Jake Arrieta
+				<img src="assets/images/cubLogo.png" class="panelImg">
+			</div>
+		</div>
+		<div class="row card">
+			<div class="col-12 card-body">
+				<p class="questions">Name the last left handed hitter for the Cubs to have back to back 30 home run and 100 RBI seasons?</p>	
+				<input class="answers" type="radio" name="q8" value="Billy Williams">Billy Williams 
+				<input class="answers" type="radio" name="q8" value="Moises Alou">Moises Alou 
+				<input class="answers" type="radio" name="q8" value="Sammy Sosa">Sammy Sosa 
+				<input class="answers" type="radio" name="q8" value="Anthony Rizzo">Anthony Rizzo
+				<img src="assets/images/worldSeries.png" class="panelImg">
+			</div>
+		</div>
+		<div class="row card">
+			<div class="col-12 card-body">
+				<p class="questions">How many times has a Chicago Cub player won the N.L. MVP award?</p>
+				<input class="answers" type="radio" name="q9" value="five">5
+				<input class="answers" type="radio" name="q9" value="eight">8 
+				<input class="answers" type="radio" name="q9" value="ten">10 
+				<input class="answers" type="radio" name="q9" value="twelve">12
+				<img src="assets/images/cubLogo2.png" class="panelImg">
+			</div>
+		</div>
+		<div class="row card">
+			<div class="col-12 card-body">
+				<p class="questions">How many times have the Chicago Cubs won the World Series?</p>
+				<input class="answers" type="radio" name="q10" value="two">2
+				<input class="answers" type="radio" name="q10" value="three">3
+				<input class="answers" type="radio" name="q10" value="four">4 
+				<input class="answers" type="radio" name="q10" value="5">5
+				<img src="assets/images/cubLogo.png" class="panelImg">
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-12">
+				<button type="button" class="btn btn btn-primary btn-lg" id ="done_button">Done!</button>
+			</div>
+		</div>
+	</div>
+
+
+
+
+	<!-- End of the game -->
+	<div id = end_container>
+		<div class="row">
+			<div class="col-12" id="imageCol">
+				<img id="champions" src="assets/images/champions.jpg">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-12">
+				<h2 class="results">Results</h2>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-12">
+				<p class="results">Correct Answers: <span id = "correct_answers">0</span></p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-12">
+				<p class="results">Incorrect Answers: <span id = wrong_answers>0</span></p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-12">
+				<p class="results">Unanswered: <span id = "unanswered">0</span></p>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+</body>
+</html>
